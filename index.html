@@ -1,169 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-	
-    <meta charset="utf-8" />	 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Designer" />
-
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />	   
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-	<link href="img/favicon.png" rel="shortcut icon" />
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Iyyanar's Portfolio</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="img/favicon.png" rel="icon" type="image/x-icon" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
-	
-	<script src="js/modernizr.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
-	<title>Designer</title>
+	<!-- <script src="js/modernizr.js"></script> -->
+</head>
 
-	</head>
-	   <body>
-	   
-<!--- PAGE LOADING --->	
-<div class="preloading fadeIn">
-
-	    <div class="container">
-
-		<!--- HERO HEADER --->
-	            <div class="row">
-	                <div class="col-md-12">
-                       <div class="hero-bg" >
-					        <h1 class="fade-anime-top"> JOHN DOE </h1>
-					        <h1 class="fade-anime-top"> I am a designer & Front-end developer. </h1>
-                            <h2 class="fade-anime-bottom"> I work with love. </h2>					
-                       </div>
-	                </div>
+<body>
+	<div class="container-fluid" id="body-box">
+		<div class="row">
+			<div class="col-md-12" id="head-stripe"></div>
+		</div>
+		<div class="row" id="head-panel">
+			<div class="col-md-2" id="pic-box">
+				<img src="./img/covers/4.jpg" alt="Profile picture" class="img-responsive" id="profile-pic" />
+			</div>
+			<div class="col-md-6" id="name-box">
+				<h1><strong>Iyyanar</strong> Madeshvaran</h1>
+				<br />
+				<h4><strong>SOFTWARE ENGINEER</strong></h4>
+			</div>
+			<div class="col-md-4" id="cont-box">
+				<i class="fa fa-1x fa-envelope" aria-hidden="true">
+				</i>
+				<a href="mailto:inr1137m@gmail.com" target="_blank">inr1137m@gmail.com</a>
+				<br /><br />
+				<i class="fa fa-1x fa-mobile" aria-hidden="true">
+				</i>
+				<a href="tel:+9188668097420" target="_blank">+91-88668097420</a>
+			</div>
+		</div>
+		<br />
+		<!-- PROFILE SECTION -->
+		<div class="row" id="profile">
+			<div class="col-md-2" id="titletag">
+				<h4>PROFILE</h4>
+			</div>
+			<div class="col-md-9" id="subtag">
+				<hr />
+			</div>
+		</div>
+		<div class="row" id="profile-vals">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 adjust-vals1">
+				<p>
+					I am a Full-stack developer having strong knowledge on multiple software stacks. Able to effectively
+					self-manage during independent projects as well as collaborate in a global team structure.
+					Using Python, Javascript and multiple frameworks to build complex applications and deploy in Cloud
+					and On-premise environments. Has great enthusiasm in learning and adapting modern technologies and
+					software Development practices.
+				</p>
+			</div>
+		</div>
+		<!-- SKILLS SECTION -->
+		<div class="row" id="Skills">
+			<div class="col-md-2" id="titletag">
+				<h4>SKILLS</h4>
+			</div>
+			<div class="col-md-9" id="subtag">
+				<hr />
+			</div>
+			<div class="row" id="skills-vals">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 adjust-vals1">
+					<ul>
+						<li><strong>AWS Cloud </strong>- EC2, EBS, S3, DynamoDB, Lambda, API Gateway, IAM, VPC,
+							CloudWatch, etc.</li>
+						<li><strong>Programming languages</strong> - Python, JavaScript, Java, C++.</li>
+						<li><strong>Web Development</strong> - HTML5, CSS, SASS, Bootstrap, JQuery, NodeJS, Express JS,
+							React JS.</li>
+						<li><strong>Software Frameworks</strong> - Flask, Django, NodeJS, ExpressJS, ReactJS</li>
+						<li><strong>Databases</strong> - MySQL, MongoDB, Postgres, Solr.</li>
+						<li><strong>DevOps Tools</strong> - GitHub, Docker, Docker Swarm.</li>
+						<li><strong>Platform</strong> - Windows, Linux, Docker, Cloud</li>
+					</ul>
 				</div>
-		<!--- THE END HERO HEADER --->
+			</div>
+		</div>
+		<!-- EXPERIENCE SECTION -->
+		<div class="row" id="experience">
+			<div class="col-md-2" id="titletag">
+				<h4>EXPERIENCE</h4>
+			</div>
+			<div class="col-md-9" id="subtag">
+				<hr />
+			</div>
+			<div class="row" id="experience-vals">
+				<div class="col-md-2">&nbsp;</div>
+				<div class="col-md-8 adjust-vals1">
+					<h4><strong>IBM Corporation (2019 - Present)</strong></h4>
+					<h5><u>Application Developer - Open Source</u></h5>
+					<p>As a developer, my day to day BAU activities are : </p>
 
-		<!--- ABOUT --->
-	            <div class="row">
-	                <div class="col-md-6 col-xs-12">
-                       <div class="lg-col-bg" >
-					        <div class="lg-col-ttl2">About me</div>
-                            <div class="lg-col-wrt"> My name is John Doe. I am a designer and Front-end developer 
-							based in earth. My designs, solutions and ideas for your brands.<br><br>
-							<b>Capabilities</b><br>
-							Branding<br>
-							Illustration<br>
-							Web Design<br>
-							Web Development
-							</div>							
-                       </div>
-	                </div>
-
-					<div class="col-md-6 col-xs-12">
-                       <div class="lg-col-bg2" >
-                               <img src="img/covers/portrait.jpg" alt="" class="img-lg-col2">					   
-                       </div>
-	                </div>
-					
+					<ul>
+						<li>Work on the defects, bugs, vulnerabilities and user stories for two major applications based
+							on Data Science & machine learning models.
+						</li>
+						<li>Perform analysis, understand the modules, workflow of an existing application to
+							optimize or add features based on requirements and user stories.</li>
+						<li>Has created automation scripts to reduce the manual intervention during build &
+							deployment phase in windows, Linux and docker environments.</li>
+						<li>Has worked with senior technical architects and leads for implementing new ideas
+							and strategies to improve the applications performance, stability and
+							scalability.</li>
+						<li>Has to re-factor the legacy applications and its algorithms to make it available
+							to use in latest cloud environments.</li>
+						<li>Has worked with different teams to achieve and complete the goals within the
+							planned timeline.</li>
+					</ul>
 				</div>
-		<!--- THE END ABOUT CLIENT --->
+			</div>
+		</div>
+		<!-- PROJECTS SECTION -->
+		<div class="row" id="projects">
+			<div class="col-md-2" id="titletag">
+				<h4>PROJECTS</h4>
+			</div>
+			<div class="col-md-9" id="subtag">
+				<hr />
+			</div>
+		</div>
+		<div class="row" id="projects-vals">
+			<div class="col-md-2" id="subtitletag">
+				<h5>PERSONAL PROJECTS</h5>
+			</div>
+			<div class="col-md-8 adjust-vals1">
 
-		<!--- HERO HEADER WORK SLIDER --->
-                <div class="row">				
-				    <div class="col-md-12 xs-col-12">
-				       <div class="lg-col-bg" >
-                            <div class="lg-col-wrt2">
-							Case study coming soon to all works. See more designs on 
-							<a target="_blank" class="soc-lnk" href="http://dribbble.com/">Dribbble</a>, 
-							<a target="_blank" class="soc-lnk" href="http://instagram.com/">Instagram</a> or 
-							<a target="_blank" class="soc-lnk" href="http://behance.com/">Behance</a>.
-							</div>
-                       </div>							
-				    </div>					
-			    </div>		        
 
-			    <div class="row">
-	                <div class="col-md-6 col-xs-12">
-                        <div class="prjct-bg" >					
-					            <a target="blank" href="https://unsplash.com/photos/BP3XOsSPlGA"> <img src="img/covers/1.jpg" alt="" class="img-prjct-wrk"> </a>
-					          <div class="prjct-wrt-left-wrk"> </div>
-							  <div class="shw-cs2"> Project Title </div>
-							  <div class="shw-cs4"> Branding, Identity </div>
-							  <div class="shw-cs"> Case study ( Coming soon ) </div>
-						</div>					
-	                </div>
-					
-	                <div class="col-md-6 col-xs-12">
-                        <div class="prjct-bg" >					
-					            <a target="blank" href="https://unsplash.com/photos/i_6Y2V81ceA"> <img src="img/covers/2.jpg" alt="" class="img-prjct-wrk"> </a>
-					          <div class="prjct-wrt-right-wrk"> </div>
-							  <div class="shw-cs2"> Project Title </div>
-							  <div class="shw-cs4"> Typography </div>
-							  <div class="shw-cs"> Case study ( Coming soon ) </div>
-						</div>
-	                </div>
-                </div>
+			</div>
+		</div>
+		<div class="row" id="projects-vals">
+			<div class="col-md-2" id="subtitletag">
+				<h5>ACADEMIC PROJECTS</h5>
+			</div>
+			<div class="col-md-8 adjust-vals1">
 
-			    <div class="row">
-	                <div class="col-md-6 col-xs-12">
-                        <div class="prjct-bg" >					
-					            <a target="blank" href="https://unsplash.com/photos/aX6MnM_xvXo"> <img src="img/covers/3.jpg" alt="" class="img-prjct-wrk"> </a>
-					          <div class="prjct-wrt-left-wrk"> </div>
-							  <div class="shw-cs2"> Project Title </div>
-							  <div class="shw-cs4"> Illustration, Art Direction </div>
-							  <div class="shw-cs"> Case study ( Coming soon ) </div>
-						</div>					
-	                </div>
-					
-	                <div class="col-md-6 col-xs-12">
-                        <div class="prjct-bg" >					
-					            <a target="blank" href="https://unsplash.com/photos/qX9Ie7ieb1E"> <img src="img/covers/4.jpg" alt="" class="img-prjct-wrk"> </a>
-					          <div class="prjct-wrt-right-wrk"> </div>
-							  <div class="shw-cs2"> Project Title </div>
-							  <div class="shw-cs4"> Street Art </div>
-							  <div class="shw-cs"> Case study ( Coming soon ) </div>
-						</div>
-	                </div>
-                </div>	
 
-			    <div class="row">
-	                <div class="col-md-6 col-xs-12">
-                        <div class="prjct-bg" >					
-					            <a target="blank" href="https://unsplash.com/photos/5E5N49RWtbA"> <img src="img/covers/5.jpg" alt="" class="img-prjct-wrk"> </a>
-					          <div class="prjct-wrt-left-wrk"> </div>
-							  <div class="shw-cs2"> Project Title </div>
-							  <div class="shw-cs4"> Art Direction </div>
-							  <div class="shw-cs"> Case study ( Coming soon ) </div>
-						</div>					
-	                </div>
-					
-	                <div class="col-md-6 col-xs-12">
-                        <div class="prjct-bg" >					
-					            <a target="blank" href="https://unsplash.com/photos/GCQaYDCQwgc"> <img src="img/covers/6.jpg" alt="" class="img-prjct-wrk"> </a>
-					          <div class="prjct-wrt-right-wrk"> </div>
-							  <div class="shw-cs2"> Project Title </div>
-							  <div class="shw-cs4"> Branding, Web Design, App. Design </div>
-							  <div class="shw-cs"> Case study ( Coming soon ) </div>
-						</div>
-	                </div>
-                </div>				
-        <!--- THE END HERO HEADER WORK SLIDER --->		
-		
-		<!--- FOOTER --->
-		<div class="container">
-	            <div class="row">
-                       <div class="footer-bg" >
-					      <div class="col-md-4 col-xs-12">
-						    <h1 div class="tfv"> Thanks for visiting. </h1>
-						    <a href="mailto:#0"> <div class="ftr-lnk"> Just say hello </div> </a>
-                            </div>	                      
-				       </div>
+			</div>
+		</div>
+		<!-- CERTIFICATE SECTION -->
+		<div class="row" id="certificate">
+			<div class="col-md-2" id="titletag">
+				<h4>CERTIFICATIONS</h4>
+			</div>
+			<div class="col-md-9" id="subtag">
+				<hr />
+			</div>
+			<div class="row" id="certificate-vals">
+				<div class="col-md-2"></div>
+				<div class="col-md-5 adjust-vals1">
+					<ul>
+						<li>AWS Certified Associate Developer</li>
+						<li>AWS Certified Cloud Practitioner</li>
+						<li>FreeCodeCamp - Legacy Front End <a href="https://freecodecamp.org/certification/inr1137m/legacy-front-end" target="_blank"><strong> - view</strong></a></li>
+						<li>FreeCodeCamp - JavaScript Data Structure & Algorithms <a href="https://freecodecamp.org/certification/inr1137m/javascript-algorithms-and-data-structures" target="_blank"><strong> - view</strong></a></li>
+						<li>FreeCodeCamp - Backend Development & API's <a href="https://freecodecamp.org/certification/inr1137m/back-end-development-and-apis" target="_blank"><strong> - view</strong></a> </li>
+						<li>IBM Cloud Advocate V1</li>
+						<li>Microsoft - Azure Fundamentals</li>
+						<li>OPA Policy Authoring - Styra Academy <a href="https://academy.styra.com/certificates/2cv0usipi5" target="_blank"><strong> - view</strong></a></li>
+						<li>IBM Docker Essentials</li>
+						<li>IBM - Building Cloud-Native and Multicloud Applications</li>
+						<li>IBM - Getting started with Microservices with Istio and IBM Cloud Kubernetes Service</li>
+						<li>IBM Data Science Professional certification - Coursera</li>
+						<li>Applied Data Science Specialization - Coursera</li>
+						<li><a href="https://www.credly.com/users/iyyanar-madeshvaran.5f6e8733" target="_blank">Click to see all certifications in Credly...📜</a></li>
+					</ul>
 				</div>
-		</div>		
-		<!--- THE END FOOTER --->			
-        
-		<!--- SCRIPTS --->
-	            <script src="js/jquery-2.1.1.js"></script>
-                <script src="js/main.js"></script>
-				<script src="js/bootstrap.min.js"></script>				
-		<!--- THE END SCRIPTS --->	
+				<div class="col-md-4">
+					<img class="certlogo" src="./img/cert-logo/aws-1.png"/>
+					<img class="certlogo" src="./img/cert-logo/aws.png"/>
+					<img class="certlogo" src="./img/cert-logo/azure.png"/>
+					<img class="certlogo" src="./img/cert-logo/ibmc.png"/>
+					<img class="certlogo" src="./img/cert-logo/ibmds.png"/>
+					<img class="certlogo" src="./img/cert-logo/ibmdoc.png"/>
+					<img class="certlogo" src="./img/cert-logo/ibmcn.png"/>
+					<img class="certlogo" src="./img/cert-logo/ibmistio.png"/>
+					<a href="https://www.credly.com/users/iyyanar-madeshvaran.5f6e8733" target="_blank">
+					<img class="certlogo" src="./img/cert-logo/clickmore.png" /></a>
+			</div>
+		</div>
+		<!-- EDUCATION SECTION -->
+		<div class="row" id="education">
+			<div class="col-md-2" id="titletag">
+				<h4>EDUCATION</h4>
+			</div>
+			<div class="col-md-9" id="subtag">
+				<hr />
+			</div>
+			<div class="row" id="profile-vals">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 adjust-vals1">
+					<ul>
+						<li>Sona College of Technology - Anna University (2016 - 2019)</li>
+						<li>DPC Polytechnic College - Anna University (2013 - 2016)</li>
+						<li>Little Flower Matriculation School ( 2013 )</li>
+					</ul>
+					<!-- <h6></h6>
+					<h6></h6>
+					<h6></h6> -->
+				</div>
+			</div>
+		</div>
+		<!-- PUBLICATION SECTION -->
+		<div class="row" id="publication">
+			<div class="col-md-2" id="titletag">
+				<h4>PUBLICATIONS</h4>
+			</div>
+			<div class="col-md-9" id="subtag">
+				<hr />
+			</div>
+			<div class="row" id="profile-vals">
+				<div class="col-md-2"></div>
+				<div class="col-md-8 adjust-vals1">
+					<h5>
+						<u>
+							<strong>
+								<a href="https://link.springer.com/chapter/10.1007/978-981-15-5619-7_12"
+									target="_blank">A Machine Learning Model for Forecasting Wind Disasters for Farmers
+									📰</a>
+							</strong>
+						</u>
+					</h5>
+					<h6><strong>Authors : </strong>Iyyanar M., Usha M., Anbuselvi M., Birundha C., Haritha V.</h6>
+					<h6><strong>
+							Publisher :
+						</strong>Data Management, Analytics and Innovation. Advances in Intelligent Systems and
+						Computing, vol 1175. Springer, Singapore.</h6>
 
-</div>
-<!--- THE PAGE LOADING --->		
-		
-		</body>		
-		
+				</div>
+			</div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-md-12" id="foot-stripe"></div>
+		</div>
+	</div>
+
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
