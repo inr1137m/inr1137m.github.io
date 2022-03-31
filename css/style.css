@@ -62,6 +62,17 @@ hr{
     background-color:#80bdff;
 }
 
+.proj-split{
+    height: 0.1px;
+    background-color: gray;
+}
+
+#proj-split-main{
+    border-width:2px;
+    height: 2px;
+    background-color:gray;
+}
+
 
 #titletag {
     text-align: right;
